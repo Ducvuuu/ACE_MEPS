@@ -307,6 +307,13 @@
                         { stars: 4, color: starColors[4] },
                         { stars: 5, color: starColors[5] }
                     ];
+                } else if (countryTech.includes("Singapore")) {
+                    legendData = [
+                        { stars: 2, color: starColors[2] },
+                        { stars: 3, color: starColors[3] },
+                        { stars: 4, color: starColors[4] },
+                        { stars: 5, color: starColors[5] }
+                    ];
                 } else {
                     legendData = [
                         { stars: 1, color: starColors[1] },
@@ -351,7 +358,7 @@
                 createStarLegend(countryTech);
 
                 countryData.forEach(d => {
-                    const minStars = countryTech.includes("Thailand") ? 0 : 1;
+                    const minStars = countryTech.includes("Thailand") ? 0 : countryTech.includes("Singapore") ? 2 : 1;
                     const maxStars = 5;
                     for (let i = minStars; i <= maxStars; i++) {
                         const minCol = `${i} Star Min`;
