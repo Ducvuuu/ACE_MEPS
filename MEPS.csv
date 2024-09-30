@@ -9,10 +9,8 @@ Myanmar,,5.5,12,2.89
 Philippines,,0,4.5,3.32
 Philippines,,4.5,10,3.7
 Philippines,,10,14,3.7
-Singapore,Single-Split Inverter,0,14,6.1
-Singapore,Single-Split Non-Inverter,0,14,6.1
-Singapore,Multi-Split Inverter,0,14,6.86
-Singapore,Multi-Split Non-Inverter,0,14,6.86
+Singapore,Single-Split Inverter/Non-Inverter,0,14,6.1
+Singapore,Multi-Split Inverter/Non-Inverter,0,14,6.86
 Thailand,Fixed Speed,0,8,3.19
 Thailand,Fixed Speed,8,12,3.15
 Thailand,Fixed Speed,12,18,2.68
